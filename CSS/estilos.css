@@ -1,0 +1,112 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #333;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header .lead {
+    font-size: 14px;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos de las publicaciones */
+.post {
+    background-color: white;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.post-header h3 {
+    color: #ff6347;
+}
+
+.post-header img {
+    display: block;  /* Hace que la imagen sea un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-width: 100%; /* Asegura que la imagen no exceda el contenedor */
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer form {
+    margin: 10px auto;
+}
+
+footer input[type="text"],
+footer input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    border: 1px solid #ddd;
+}
+
+.submitbutton {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.submitbutton:hover {
+    background-color: #e5533d; /* Cambio de color al pasar el mouse */
+}
